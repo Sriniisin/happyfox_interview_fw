@@ -54,10 +54,24 @@ public interface Elements {
 	 */
 	public void close();
 	
+	/**
+	 * This mouse Hover and places the focus above the element
+	 * 
+	 * @param element - the located WebElement
+	 */
 	public void mouseHover(WebElement ele);
 	
-	public void perform();
-	
+	/**
+	 * This mouse click by focusing above the element
+	 * 
+	 * @param element - the located WebElement
+	 */
 	public void mouseClick(WebElement ele);
+	
+	/**
+	 * This executes the build method command of action class
+	 * 
+	 */
+	public void perform();
 	
 }
